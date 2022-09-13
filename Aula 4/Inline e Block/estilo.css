@@ -1,0 +1,18 @@
+.block{
+    border: 1px solid purple;
+    display: block;
+    width: 300px;
+}
+
+.inline{
+    border: 1px solid orange;
+    display: block;
+    width: 600px;
+}
+
+.border{
+    border: green;
+    display: block;
+    width: 900px;
+}
+

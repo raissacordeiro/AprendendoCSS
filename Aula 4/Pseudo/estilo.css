@@ -1,0 +1,22 @@
+
+
+/* site não visitado */
+a:link {
+    color: #FF0000;
+  }
+  
+  /* site visitado */
+  a:visited {
+    color: #00FF00;
+  }
+  
+  /* mouse sobre o link */
+  a:hover {
+    color: #FF00FF;
+    background-color: grey;
+  }
+  
+  /* link selecionado */
+  a:active {
+    color: #0000FF;
+  }

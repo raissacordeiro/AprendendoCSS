@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamentos (static, relative, absolute e fixed)</title>
+		<meta charset="utf-8">
+
+		<style type="text/css">
+
+			body{
+				background: #007fc7;
+			}
+
+			#container{
+				background: #fff;
+				width: 800px;
+				margin:10px auto; /* superior-inferior  laterais*/
+				/*auto truque para centralizar em relação as laterais*/
+				padding: 10px;
+				position: relative;
+			}
+
+			p{
+				width: 300px;
+			}
+
+			.relative{
+				border: 1px solid red;
+				position: relative;
+				top: 5px;
+				left: 80px;
+				
+			}
+
+			.absolute{
+				border: 1px solid blue;
+				position: absolute;
+				top: 0;
+				right: 0;
+
+			}
+
+			.fixed{
+				border: 1px solid green;
+				background: #fff;
+				position: fixed;
+				bottom: 0;
+				right: 0;
+
+
+			}
+
+		
+
+		</style>
+
+	</head>
+
+	<body >
+		<div id="container">
+			<h1>Posicionamentos</h1>
+			<p>P1 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat, nibh quam faucibus nibh.</p>
+
+			<p class="relative">P2 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat.</p>
+
+			<p class="absolute">P3 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat, nibh quam faucibus nibh.</p>
+
+			<p class="fixed">P4 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat, nibh quam faucibus nibh.</p>
+
+			<p>P5 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat, nibh quam faucibus nibh.</p>
+
+			<p>P4 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat, nibh quam faucibus nibh.</p>
+
+			<p>P4 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat, nibh quam faucibus nibh.</p>
+
+			<p>P4 Donec ornare metus in aliquam ultrices. Donec tempor condimentum dignissim. Duis dolor elit, iaculis a leo viverra, commodo pharetra nulla. Cras mattis, magna vitae maximus feugiat, nibh quam faucibus nibh.</p>
+			
+		</div>
+
+	</body>
+</html>

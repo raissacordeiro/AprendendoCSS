@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Selector</title>
+    <style type="text/css">
+    	h1{color: blue;}
+    	p{color: red;}
+    	.hómi {color: blue;}
+    	#primeiro_paragrafo{color: orange;}
+    	#segundo_paragrafo{color: grey;}
+    	.fundoPink{background-color: pink;}
+    	.classPurple{background-color: purple;}
+    	.classGrey{background-color: grey;}
+    	#bloco1{background-color: gold;} 
+    	.bloco{border: 10px solid black;}
+    	.negrito{font-weight:bold; color: brown;}
+  </style>
+</head>
+<body>
+	<div id="bloco1" class="bloco">
+		<h1 class="fundoPink">Estilo CSS (Cascading style Sheet)</h1>
+		<p class="hómi">
+			Cras pellentesque justo <span class="negrito">orci</span>, id molestie enim accumsan interdum. Maecenas luctus magna et arcu aliquet, eget mattis ligula volutpat. Nulla iaculis pretium vulputate. In vel tempus nisl. Donec commodo erat nec enim mattis, laoreet efficitur risus vulputate. Proin aliquam nisl quis magna volutpat molestie. Quisque eget tristique metus, sit amet molestie neque.
+		</p>
+
+		<p class="classGrey">
+			Cras pellentesque justo orci, id molestie enim accumsan interdum. Maecenas luctus magna et arcu aliquet, eget mattis ligula volutpat. <span>Nulla</span> iaculis pretium vulputate. In vel tempus nisl. Donec commodo erat nec enim mattis, laoreet efficitur risus vulputate. Proin aliquam nisl quis magna volutpat molestie. Quisque eget tristique metus, sit amet molestie neque.
+		</p>
+	</div>
+
+	<div class="bloco">
+		<h1>Formatações 1</h1>
+		<p class="fundoPink">
+			Cras pellentesque justo orci, id molestie enim accumsan interdum. Maecenas luctus magna et arcu aliquet, eget mattis ligula volutpat. Nulla iaculis pretium <span>vulputate</span>. In vel tempus nisl. Donec commodo erat nec enim mattis, laoreet efficitur risus vulputate. Proin aliquam nisl quis magna volutpat molestie. Quisque eget tristique metus, sit amet molestie neque.
+		</p>
+
+		<p>
+			Cras pellentesque justo orci, id molestie enim accumsan interdum. Maecenas luctus magna et arcu aliquet, eget mattis ligula volutpat. <span>Nulla iaculis pretium vulputate.</span> In vel tempus nisl. Donec commodo erat nec enim mattis, laoreet efficitur risus vulputate. Proin aliquam nisl quis magna volutpat molestie. Quisque eget tristique metus, sit amet molestie neque.
+		</p>
+	</div>
+
+	<div class="bloco">
+		<h1>Formatações 2</h1>
+		<p id="primeiro_paragrafo"> 
+			Cras pellentesque justo orci, id molestie enim accumsan interdum. Maecenas luctus magna et arcu aliquet, eget mattis ligula volutpat. Nulla iaculis pretium vulputate. In vel tempus nisl. <span>Donec</span> commodo erat nec enim mattis, laoreet efficitur risus vulputate. Proin aliquam nisl quis magna <span>volutpat</span> molestie. Quisque eget tristique metus, sit amet molestie neque.
+		</p>
+
+		<p class="classPurple">
+			Cras pellentesque justo orci, id molestie enim accumsan interdum. <span>Maecenas luctus magna et arcu aliquet, eget mattis ligula volutpat. Nulla iaculis pretium vulputate</span>. <span>In vel tempus nisl.</span> Donec commodo erat nec enim mattis, laoreet efficitur risus vulputate. Proin aliquam nisl quis magna volutpat molestie. Quisque eget tristique metus, sit amet molestie neque.
+		</p>
+	</div>
+
+</body>
+</html>

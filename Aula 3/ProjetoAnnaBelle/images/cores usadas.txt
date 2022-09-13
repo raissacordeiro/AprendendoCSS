@@ -1,0 +1,15 @@
+Teste as cores e conforme as imagens do projete aplica cada cor adequadamente:
+
+#d2d2c1 
+
+#c5c5b2
+
+#e8e8d9
+
+#4b566a
+
+#c3c3ae
+
+#828271
+
+Largura da página: 900px
